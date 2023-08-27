@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header-banner {
+  width: 100%;
+  height: 20rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+.tecnologia {
+  background-color: blue;
+}
+.header-banner.moda {
+  background-color: gray;
+}
+.tecnology {
+  background-color: green;
+}
+.culinaria {
+  background-color: yellow;
+}
+.programacao {
+  background-color: purple;
+}
+
+#title {
+  width: 80%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+/* ============================= */
+.conteudo {
+  padding: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#desc {
+  width: 80%;
+  text-align: justify;
+}
+
+/* ===================== */
+
+.autor {
+  width: 80%;
+  height: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+
+  /* padding-left: 2rem; */
+  margin-bottom: 3rem;
+}
+
+.autor img {
+  width: 5rem;
+  border: 3px solid blue;
+  border-radius: 50%;
+}
+
+.autor p {
+  font-size: 1.6rem;
+}
