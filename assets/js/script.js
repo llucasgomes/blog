@@ -33,7 +33,7 @@ const buttonFilters = document.querySelectorAll(".button");
 cardsAll.forEach((card, index) => {
   card.addEventListener("click", () => {
     localStorage.setItem("selected", index + 1);
-    window.location.href = "http://127.0.0.1:5501/description.html";
+    window.location.href = "https://llucasgomes.github.io/description.html";
   });
 });
 
